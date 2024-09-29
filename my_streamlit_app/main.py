@@ -10,7 +10,7 @@ st.image("trialmix labs blue logo.svg", width=140)
 st.write("### Trialmix Labs - Researcher Dashboard")
 st.write("# My Clinical Trials")
 x = st.text_input("Search")
-st.write(f"Your search: {x}")
+st.write(f"Your search: \"{x}\"")
 
 data = pd.read_csv("trials.csv")
 

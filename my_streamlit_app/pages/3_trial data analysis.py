@@ -2,7 +2,7 @@ import streamlit as st
 import profile
 
 st.logo("trialmix labs blue icon.svg")
-st.set_page_config(layout = 'wide')
+st.set_page_config(layout = 'centered')
 
 st.write("# Trial Data Analysis")
 
