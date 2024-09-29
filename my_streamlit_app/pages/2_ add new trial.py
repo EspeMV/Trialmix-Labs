@@ -3,11 +3,12 @@ import profile
 import pandas as pd
 import csv
 
-st.logo("trialmix labs blue logo.svg")
+st.logo("trialmix labs blue icon.svg")
+st.set_page_config(layout = 'wide')
 
 FILEPATH = r'C:\Users\maria_nsinvd8\Documents\GitHub\folder\Tech-Nova-Hack\my_streamlit_app\trials.csv'
 
-st.write("# New Trial")
+st.write("# Add New Trial")
 
 # if "trial_name" not in st.session_state:
 #     st.session_state.trial_name = ""
@@ -73,9 +74,9 @@ def save_info():
 # trial_sex.text_input("Sex (F, M or F&M)", key='2')
 # trial_date.text_input("Date of trial (mm/dd)", key='3')
 
-st.text_input("Trial Name", key='trial_name')
-st.text_input("Age Range (ab-cd)", key='trial_age')
-st.text_input("Sex (F, M or F&M)", key='trial_sex')
+st.text_input("Research Title/Trial Name", key='trial_name')
+st.text_input("Age Range (min-max)", key='trial_age')
+st.selectbox("Participants' Sex", ["F&M", "F", "M"], key='trial_sex')
 st.date_input("Date of trial", key='trial_date')
 st.toggle("Make public")
 

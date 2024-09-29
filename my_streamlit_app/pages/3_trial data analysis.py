@@ -1,9 +1,10 @@
 import streamlit as st
 import profile
 
-st.logo("trialmix labs blue logo.svg")
+st.logo("trialmix labs blue icon.svg")
+st.set_page_config(layout = 'wide')
 
-st.write("# Trial Analysis")
+st.write("# Trial Data Analysis")
 
 import pandas as pd
 import numpy as np
@@ -26,4 +27,9 @@ else:
 
 # st.toggle("Activate")
 
+df = pd.read_csv("https://raw.githubusercontent.com/EspeMV/Trialmix-Labs/refs/heads/main/my_streamlit_app/participants.csv")
+
+
+is_clicked = st.button("Save")
 is_clicked = st.button("Analyze data and identify lack of/over representation or biases")
+

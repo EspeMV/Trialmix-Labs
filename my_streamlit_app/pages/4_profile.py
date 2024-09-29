@@ -1,6 +1,7 @@
 import streamlit as st
 
-st.logo("trialmix labs blue logo.svg")
+st.logo("trialmix labs blue icon.svg")
+st.set_page_config(layout = 'wide')
 
 st.write("# Profile")
 

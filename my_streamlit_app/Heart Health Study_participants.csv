@@ -1,0 +1,49 @@
+Participant #,Date of Birth,Age,Ethnicity/Race,Health History,Sex,Results
+1,1987-03-17,37,White,Other; Obesity,F,Improved
+2,2002-11-23,21,White,None,F,Improved
+3,1995-04-15,29,White,Asthma; Hypertension,F,No Change
+4,2004-06-01,20,White,Heart Disease,F,Improved
+5,1989-07-08,35,White,Cancer,M,No Change
+6,1999-05-10,25,White,None,F,Improved
+7,1997-09-12,27,White,Obesity; Heart Disease,F,Worsened
+8,1985-04-02,39,White,Hypertension; Asthma,F,Unknown
+9,1990-08-30,34,White,Hypertension; Diabetes,F,Improved
+10,1992-12-05,31,White,None,F,Improved
+11,2000-04-01,24,White,Obesity,F,Improved
+12,2003-07-15,21,White,Heart Disease; Asthma,F,Worsened
+13,2001-11-09,22,White,Asthma,M,Improved
+14,1994-03-20,30,White,None,M,Improved
+15,1996-09-22,28,White,Hypertension,F,No Change
+16,1966-10-10,57,Pacific Islander,Cancer,F,No Change
+17,1959-02-19,65,Asian,Other; Obesity,M,Unknown
+18,1956-05-12,68,Black or African American,Cancer; Diabetes,F,Improved
+19,1999-05-25,25,Hispanic or Latino,Obesity,M,Improved
+20,1956-05-15,68,Native American,None; Hypertension; Cancer,F,Improved
+21,1985-04-02,39,Hispanic or Latino,Hypertension; Asthma,F,Unknown
+22,1981-02-10,43,Other,Obesity,F,Worsened
+23,1987-03-20,37,Hispanic or Latino,Other; Heart Disease,F,Worsened
+24,1997-10-27,26,Native American,None,F,Improved
+25,2000-07-31,24,Black or African American,Asthma; Heart Disease; Hypertension,M,No Change
+26,1952-06-15,72,White,Cancer; Other,F,Unknown
+27,1978-04-18,46,Other,Diabetes; Heart Disease,F,Unknown
+28,1987-11-28,36,Black or African American,Hypertension; Other; Asthma,F,Worsened
+29,1953-10-13,70,Pacific Islander,None; Asthma,F,Improved
+30,1994-09-15,30,Hispanic or Latino,Heart Disease; Hypertension,M,Improved
+31,1986-09-18,38,Hispanic or Latino,Asthma,M,Unknown
+32,1971-12-24,52,Black or African American,Cancer; Other,M,Unknown
+33,2004-08-16,20,Pacific Islander,Heart Disease,F,Improved
+34,1974-08-15,50,Asian,None; Other; Asthma,F,Worsened
+35,1941-10-07,82,Native American,Other; Hypertension,F,No Change
+36,1967-04-08,57,Native American,Hypertension,M,Unknown
+37,1941-02-04,83,Native American,None; Other; Obesity,F,Improved
+38,1962-05-20,62,Other,Other,M,Unknown
+39,1960-11-14,63,Other,Hypertension,F,No Change
+40,1998-02-12,26,White,Diabetes; Hypertension,F,No Change
+41,1969-07-08,55,Black or African American,Asthma,M,Unknown
+42,1941-06-22,83,Asian,Obesity,M,Improved
+43,1960-11-13,63,Native American,Diabetes,F,No Change
+44,1966-02-05,58,Native American,Other; Diabetes,F,Unknown
+45,1962-06-06,62,Black or African American,Other; Heart Disease,M,Improved
+46,1966-08-03,58,Pacific Islander,Heart Disease,M,Improved
+47,1976-04-03,48,Native American,Cancer; Other; None,F,Worsened
+48,1957-06-19,67,Asian,Heart Disease; Other; Cancer,F,Worsened
