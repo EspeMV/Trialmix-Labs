@@ -4,8 +4,8 @@ from streamlit.web.server.websocket_headers import _get_websocket_headers
 import requests
 
 # Replace me
-AUTH_URL = "YOUR_AUTH_URL"
-API_KEY = "YOUR_API_KEY"
+AUTH_URL = "https://6386688.propelauthtest.com"
+API_KEY = "2f04cb921fb75935495a88eb437c35e77a578edb3db63391441b4e3b457fa785ecd7c383d4f236e9396a14af239bd2e6"
 
 class Auth:
     def __init__(self, auth_url, integration_api_key):

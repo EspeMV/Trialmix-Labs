@@ -1,9 +1,23 @@
 import streamlit as st
+
+from propelauth import auth
+
+user = auth.get_user()
+if user is None:
+    st.error('Unauthorized Test')
+    st.stop()
+
+with st.sidebar:
+    st.link_button('Account', auth.get_account_url(), use_container_width=True)
+
+st.text("Logged in as " + user.email + " with user ID " + user.user_id)
+
+import streamlit as st
 import pandas as pd
 import numpy as np
 from io import StringIO
 
-st.write("# Researcher Portal")
+st.write("# Researcher Dashboard")
 
 uploaded_file = st.file_uploader("Upload a CSV file", type=['csv'], accept_multiple_files=False, key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False, label_visibility="visible")
 # Loading the data from csv file
