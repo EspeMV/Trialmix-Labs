@@ -3,10 +3,10 @@ import pandas as pd
 import numpy as np
 from io import StringIO
 
-st.logo("trialmix labs blue icon.svg")
+st.logo("trialmix labs blue icon.png")
 st.set_page_config(layout = 'wide')
 
-st.image("trialmix labs blue logo.svg", width=140)
+st.image("trialmix labs blue logo.png", width=140)
 st.write("### Trialmix Labs - Researcher Dashboard")
 st.write("# My Clinical Trials")
 x = st.text_input("Search")

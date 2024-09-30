@@ -3,7 +3,7 @@ import profile
 import pandas as pd
 import csv
 
-st.logo("trialmix labs blue icon.svg")
+st.logo("trialmix labs blue icon.png")
 st.set_page_config(layout = 'centered')
 
 FILEPATH = r'C:\Users\maria_nsinvd8\Documents\GitHub\folder\Tech-Nova-Hack\my_streamlit_app\trials.csv'
